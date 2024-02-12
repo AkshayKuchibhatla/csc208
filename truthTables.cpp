@@ -28,6 +28,12 @@ void truthTable(string op) {
         std::cout << p << "\t" << !q << "\t" << (p == !q) << endl;
         std::cout << !p << "\t" << q << "\t" << (!p == q) << endl;
         std::cout << !p << "\t" << !q << "\t" << (!p == !q) << endl;
+    } else if (op == "if") {
+        std::cout << "P\tQ\tP→Q\n";
+        std::cout << p << "\t" << q << "\t" << (!(p && !q)) << endl;
+        std::cout << p << "\t" << !q << "\t" << (!(p && q)) << endl;
+        std::cout << !p << "\t" << q << "\t" << (!(!p && !q)) << endl;
+        std::cout << !p << "\t" << !q << "\t" << (!(!p && q)) << endl;
     } else {
         return;
     }
