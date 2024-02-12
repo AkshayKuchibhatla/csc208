@@ -1,24 +1,29 @@
-### Describing functions
+# Describing functions
+
 Functions are abstract mathematical objects, but when we want to talk about them, we need to represent them.
 **There are 3 main ways to describe, or represent, a function:**
+
 1. Equation
 2. Graph
 3. Map
 4. Table
 
-#### Equation
+## Equation
+
 The most standard way of representing a discrete function is using its equation. In this example, the function being described will be:
 
 $ f(x) = x^{2}$
 
-#### Graphical representation
+## Graphical representation
+
 In normal math, functions are continuous, so an equation looks like a line when graphed. However, because in discrete math the numbers in the domain are each a set distance apart, functions appear as dots:
 
 $f(x)$
 
 ![An example of a discrete function](discrete_data_graph.jpg)
 
-#### Mapping diagram
+## Mapping diagram
+
 In normal math, functions can also be represented using a table. When functions are discrete, on the other hand, since one input clearly leads to one output, the relation is represented via arrows:
 
 $ f(x) \\$
@@ -36,7 +41,7 @@ $ 10 \rightarrow 100 \\$
 
 Arrow diagrams are useful because they can aid in visualizing a function.
 
-#### Table
+## Table
 
 However, these functions can also be depicted using a table of inputs and outputs, similar to in normal math:
 
@@ -55,7 +60,7 @@ However, these functions can also be depicted using a table of inputs and output
 
 Tables are useful because they emphasize the input-output relationship that characterizes a function.
 
-Tables can be further simplified into matricies, like shown below: 
+Tables can be further simplified into matricies, like shown below:
 
 $$
 f\begin{pmatrix}
@@ -95,7 +100,8 @@ $$
 
 The answer is that $f$ and $g$ are functions. This is because in both these relations, each value in the domain has only one value in the range assigned to it. $h$, on the other hand, is *not* a function because in it the domain value of 2 is assigned the values $c$ and $a$ in the range.
 
-#### Sources
+## Sources
+
 1. [https://discrete.openmathbooks.org/dmoi3/sec_intro-functions.html](https://discrete.openmathbooks.org/dmoi3/sec_intro-functions.html)
 
 2. [https://flexbooks.ck12.org/cbook/ck-12-basic-algebra-concepts/section/1.13/related/lesson/different-representations-of-functions-msm8-ccss/](https://flexbooks.ck12.org/cbook/ck-12-basic-algebra-concepts/section/1.13/related/lesson/different-representations-of-functions-msm8-ccss/)
