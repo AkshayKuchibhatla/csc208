@@ -4,3 +4,4 @@
 
 * [Section 1.1: Addative and Multiplicative Principles](sect1.1Notes.md)
 * [Section 1.2: Binomial Coefficients](sect1.2Notes.md)
+* [Section 1.3: Combinations and Permutations](sect1.3Notes.md)
