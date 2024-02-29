@@ -59,3 +59,9 @@ You decide to have a dinner party. Even though you are incredibly popular and ha
 **Solution for part 1:** ${14 \choose 6} = \frac{14!}{(14-6)!6!} = 3003$ choices for inviting 6 friends.
 
 **Solution for part 2:** As said in part 1, there are $3003$ choices for inviting the friends. Along your table, there are $6! = 720$ ways of arranging the 6 friends. Using the multiplicative principle, we can multiply these two events together to find the total number of arrangements for all groups of friends: $720 * 3003 = 2162160$ choices.
+
+## Extra facts about functions
+
+A function is **injective** provided every element of the codomain is the image of at most one element from the domain. Basically, "Every $y$ element has at most one $x$ element paired with it."
+
+A function is **surjective** provided every element of the codomain is the image of at least one element from the domain. Basically, "Every $y$ value has at least one $x$ value with it."
