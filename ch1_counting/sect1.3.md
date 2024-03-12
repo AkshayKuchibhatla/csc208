@@ -16,6 +16,22 @@ A pizza parlor offers 10 toppings.
 
 **Solution to part 3:**This question is asking for all the different ways to arrange 5 toppings. That's $5! = 120$ different ways.
 
+## Problem 3
+
+Using the digits 2 through 8, find the number of different 5-digit numbers such that:
+
+1. Digits can be used more than once.
+
+2. Digits cannot be repeated, but can come in any order.
+
+3. Digits cannot be repeated and must be written in increasing order.
+
+4. Which of the above counting questions is a combination and which is a permutation? Explain why this makes sense.
+
+**Solution to part 1:** We are given the digits ${2,3,4,5,6,7,8}$ and asked to select 5 of them. If digits can repeat, that gives us 7 options 5 times, which means there are $7^5 = 16,807$ different 5-digit numbers.
+
+**Solution to part 2:** This is simply a permutation, or ${7 \choose 5} * 5! = 2,520$ 5-digit numbers.
+
 ## Problem 5
 
 Suppose you wanted to draw a quadrilateral using the dots below as vertices (corners). The dots are spaced one unit apart horizontally and two units apart vertically.
@@ -77,7 +93,7 @@ $$
 {6 \choose 1} * {4 \choose 2} = 6 * 6 = 36
 $$
 
-So that means that there are $84 + 36 = 120
+So that means that there are $84 + 36 = 120$ possible triangles.
 
 ## Problem 7
 

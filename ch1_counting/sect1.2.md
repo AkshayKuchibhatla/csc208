@@ -15,19 +15,16 @@ Let the set $S = \{1, 2, 3, 4, 5, 6\}$.
 
 **Solution to part 3:** We know that there are $2^6$ different subsets in total. However, because there are 3 even numbers in the set, there are $2^3=8$ possible subsets that contain only even numbers and no odd numbers. We can subtract this from the total number of subsets to get $2^6-2^3=64-8=56$ different subsets that contain at least one odd number.
 
-**Solution to part 4:** We know that there are $2^6$ different subsets in total. However, because there are 3 odd numbers in the set, there are $2^3=8$ possible subsets that contain only odd numbers and no even numbers. We can subtract this from the total number of subsets to get $2^6-2^3=64-8=56$ different subsets that contain at least one even number.
+**Solution to part 4:** $3*2^3 = 24$. Pick one even number, then say yes or no to all the odd numbers.
 
 ## Problem 2
 
-Let set $S = \{s,2,3,4,5,6\}.
+Let set $S = \{1,2,3,4,5,6\}$.
 
 1. How many subsets are there of cardinality 4?
-
 2. How many subsets of cardinality 4 have $\{2,3,5\}$ as a subset?
-
 3. How many subsets oc cardinality 4 contain at least one odd number?
-
-4. How many subsets of cadinality 4 contain at least one even number?
+4. How many subsets of cadinality 4 contain exactly one even number?
 
 **Solution to part 1:** ${6 \choose 4} = 15$ subsets.
 
@@ -42,11 +39,8 @@ Let set $S = \{s,2,3,4,5,6\}.
 Let set $A = \{1,2,3,...,9\}$.
 
 1. How many subsets of $A$ are there? That is, find $|P(A)|.$ Explain.
-
 2. How many subsets of $A$ contain exactly 5 elements? Explain.
-
 3. How many subsets of $A$ contain only even numbers? Explain.
-
 4. How many subsets of $A$ contain an even number of elements? Explain.
 
 **Solution to part 1:** We can consider each element of the set to be a choice whether or not to include it in the subset. That gives us 2 choices per element. $2^9 = 512$ possible sets.
@@ -55,7 +49,24 @@ Let set $A = \{1,2,3,...,9\}$.
 
 **Solution to part 3:** We can replace each even number in set $A$ with 2 choices: whether to include that element in the set or not. Since there are 4 even elements ($2,4,6,8$), that gives us $2^4 = 16$.
 
-**Solution to part 4:** The largest possible even subset of $A$ would be 8 elements long. So, combining all the subsets with even cardinalities gives us ${9 \choose 2} + {9 \choose 4} + {9 \choose 6} + {9 \choose 8} = 36 + 126 + 84 + 9 = 255$ subsets.
+**Solution to part 4:** The largest possible even subset of $A$ would be 8 elements long. So, combining all the subsets with even cardinalities gives us ${9 \choose 0} + {9 \choose 2} + {9 \choose 4} + {9 \choose 6} + {9 \choose 8} = 1 + 36 + 126 + 84 + 9 = 255$ subsets.
+
+## Problem 4
+
+How many 9-bit strings (that is, bit strings of length 9) are there which:
+
+1. Start with the sub-string 101? Explain.
+2. Have weight 5 (i.e., contain exactly five 1’s) and start with the sub-string 101? Explain.
+3. Either start with 101 or end with 11 (or both)? Explain.
+4. Have weight 5 and either start with 101 or end with 11 (or both)? Explain.
+
+**Solution to part 1:** $2^6 = 64$ strings.
+
+**Solution to part 2:** ${6 \choose 3} = 20$.
+
+**Solution to part 3:** There are $2^6 = 64$ strings that start with 101. There are $2^7 = 128$ strings that end in 11. Finally, there are $2^4 = 16$ strings that meet both requirements. So, $64+128+16=208$ strings.
+
+**Solution to part 4:** There are ${6 \choose 3} = 20$ strings that start with 101 and have a weight of 5. There are ${7 \choose 3} = 35$ strings with weight 5 that end with 11. There are ${4 \choose 2} = 6$ strings with weight 5 that meet both criteria.
 
 ## Problem 5
 
