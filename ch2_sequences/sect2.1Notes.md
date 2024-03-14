@@ -20,14 +20,17 @@ We often describe sequences by writing out the first few terms. However, the pro
 
 Here are some closed formulas for sequences:
 
-$a_n = n^2 + 3n + 14 \\$
-$a_n = \log(n) \\$
-$a_n = -\frac {n-2}{n} \\$
+$a_n = n^2 + 3n + 14$
+
+$a_n = \log(n)$
+
+$a_n = -\frac {n-2}{n}$
 
 Here are some recursive definitions for sequences:
 
-$a_{n}=3a_{n-1}$ with $a_{0}=1 \\$
-$a_{n}=a_{n-1}+a_{n-2}+a_{n-3}$ with $a_{0}=1, a_{1}=3, a_{2}=5 \\$
+$a_{n}=3a_{n-1}$ with $a_{0}=1$
+
+$a_{n}=a_{n-1}+a_{n-2}+a_{n-3}$ with $a_{0}=1, a_{1}=3, a_{2}=5$
 
 ## Common sequences
 
