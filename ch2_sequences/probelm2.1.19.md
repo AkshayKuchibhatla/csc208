@@ -18,7 +18,7 @@ Writing this in mathematical terms, we get the following:
 $$
 t_n = t_{n-1} + t_{n-2}
 $$
-with
+
 $$
 t_0 = 1, t_1 = 2
 $$
