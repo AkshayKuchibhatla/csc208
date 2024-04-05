@@ -25,3 +25,37 @@ Let's look at the sequence $(T_n)_{n \ge 1}$ which starte $1, 3, 6, 10, 15, ...$
 ![Image visualizing triangular numbers](triangular_numbers.png)
 
 These numbers do not form an arithmetic sequence. Their differences, however, do: $2,3,4,5,6,...$. This means that the $n$th term of the sequence $(T_n)$ is the sum of the first $n$ terms in the sequence $1,2,3,4,5,...$. $(T_n)$ is the **sequence of partial sums** of the sequence $1,2,3,...$ (*partial* sums because we are not taking the sum of all infinitely many terms).
+
+## Summing Arithmetic Sequences: Reverse and Add
+
+Find the sum of the sequence $2+5+8+11+14+ \cdots +470$.
+
+Let's call the sequence $S$. Then, let's reverse it and add it to itself:
+
+$$
+\begin{array}{cccccccccc}
+    & S & = & 2 & + & 5 & + & 8 & ... & + & 467 & + & 470 \\
+    + & S & = & 470 & + & 467 & + & 464 & ... & + & 5 & + & 2 \\
+    \hline
+    & 2S & = & 472 & + & 472 & + & 472 & ... & + & 472 & + & 472 \\
+\end{array}
+$$
+
+If $2+3n = 470$, $n=156$. Because $n$ starts from $0$, that means that there are 157 terms in this sequence. Adding $S$ to itself gives us a series that adds up to $157*472 = 74,104$. However, this is the sum of $2S$, not just $S$. To get $S$, we have to divide the answer by 2. $74,104 \div 2 = 37,052$, so the sum of the sequence $2+5+8+11+14+ \cdots +470$ is $37,052$.
+
+## Summing Geometric Sequences: Multiply, Shift and Subtract
+
+Find the sum of the sequence $3 + 6 + 12 + 24 + \cdots + 12288$.
+
+Let's say this sequence is called $S$. If we multiply every term in it by 2, we get $2S$. Then, we can subtract $S - 2S$ to get the following:
+
+$$
+\begin{array}{cccccccccc}
+    & S & = & 3 & + & 6 & + & 12 & + & 24 & ... & + & 12288 & + &   \\
+    - & 2S & = &   & + & 6 & + & 12 & + & 24 & ... & + & 12288 & + & 24576 \\
+    \hline
+    & -S & = & 3 & + & 0 & + & 0 & + & 0 & ... & + & 0 & - & 24576\\
+\end{array}
+$$
+
+$-S = -24573$, therefore $S = 24573$.
