@@ -18,7 +18,7 @@ This would be like a graph with 5 vertices that each have a degree of 2. This wa
 
 The vertices and their degrees may be the same, but the specific vertices that each vertex is connected to, i.e. the vertex pairs in $E$, can be different. This is the case for the following two graphs:
 
-![Image of graphs](4.1ExerciseImage1.png)
+![Image of graphs](4.1Images/4.1ExerciseImage1.png)
 
 Between $G_1$ and $G_2$, $V_1 \subseteq V_2$, but the same cannot be said about $E_1$ and $E_2$. Therefore, since both conditions weren't met, the graphs are non-isomorphic.
 
@@ -26,7 +26,7 @@ Between $G_1$ and $G_2$, $V_1 \subseteq V_2$, but the same cannot be said about 
 
 ### Are the two graphs below equal? Are they isomorphic? If they are isomorphic, give the isomorphism. If not, explain
 
-![Image of graphs](4.1ExerciseImage2.png)
+![Image of graphs](4.1Images/4.1ExerciseImage2.png)
 
 The graphs are NOT isomorphic becaue the edge $\{a,b\}$, which exists in $G_1$, does not also exist in $G_2$. Therefore, $E_1$ is not in $E_2$, and the graphs are not isomorphic.
 
@@ -54,7 +54,7 @@ $$
 
 Let $f:G_1 \rightarrow G_2$ be a function that takes the verties of Graph 1 to the vertices of Graph 2. The fumctiom is given by the following table:
 
-![Image of table](4.1ExerciseImage3.png)
+![Image of table](4.1Images/4.1ExerciseImage3.png)
 
 Does $f$ define an isomorphism betweeen Graph 1 and Graph 2?
 
@@ -78,7 +78,7 @@ Define a new function $g$ (with $g \ne f$) that defines an isomorphism between G
 
 Is the graph pictured below isomorphic to Graph 1 and Graph 2? Explain.
 
-![Image of graph](4.1ExerciseImage4.png)
+![Image of graph](4.1Images/4.1ExerciseImage4.png)
 
 This graph has seven vertices, so it is possible that they map out to the vertices in $G_1$ and $G_2$. However, if all the edges are also the same, then that means that each vertex in this graph should also have the same degree as those in $G_1$ and $G_2$, which is not true. The vertex $b$ in $G_1$ and $v_5$ in $G_2$ have a degree of five, and there is no vertex with such degree in the graph shown above. Therefore, that graph is not isomorphic.
 

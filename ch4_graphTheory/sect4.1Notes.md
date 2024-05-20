@@ -14,11 +14,11 @@ In this example, $V$, the set of vertices of the graph, is $\{a,b,c,d\}$ and $E$
 
 Now, if we take this ordered pair, put down all the vertices and connect precisely the ones that share an ordered pair, we get the following:
 
-![Image of graph](4.1Image1.png)
+![Image of graph](4.1Images/4.1Image1.png)
 
 However, there are other ways to do this, as well:
 
-![Image of graph](4.1Image2.png)
+![Image of graph](4.1Images/4.1Image2.png)
 
 ## Isomorphic Graphs
 
@@ -34,7 +34,7 @@ A collection of isomorphic graphs is called an **isomorphism class**.
 
 Look at the following two graphs:
 
-![Image of graph](4.1Image3.png)
+![Image of graph](4.1Images/4.1Image3.png)
 
 Although the graphs are not isomorphic, the graph on the right looks like it's part of the graph on the left. In other words, the graph on the right is a **subgraph** of the graph on the left.
 
@@ -48,7 +48,7 @@ A subgraph is essentially the result of deleting some edges and vertices from th
 
 For example, take a look at this image:
 
-![Image of graphs](4.1Image4.png)
+![Image of graphs](4.1Images/4.1Image4.png)
 
 Both $G_2$ and $G_3$ are subgraphs of $G_1$. Only $G_2$, however, is an *induced subgraph*. This is because $V_2 = \{a,b,c,d\}$, and $V_2 \subseteq V_1$, and all the edges between the vertices $\{a,b,c,d\}$ in $G_1$ are also identically seen in $G_2$.
 
@@ -90,8 +90,8 @@ If each vertex in $A$ is adjacent to all the vertices in $B$, then the graph is 
 
 Some graphs are used often enough to recieve their own names:
 
-![Image of graphs](4.1Image5.png)
+![Image of graphs](4.1Images/4.1Image5.png)
 
 ## Glossary of terms for section 4
 
-![Image of definitions](4.1Image6.png)
+![Image of definitions](4.1Images/4.1Image6.png)
