@@ -4,7 +4,7 @@
 
 * [Section 4.1: Definitions](sect4.1Notes.md)
 * [Section 4.2: Trees](sect4.2Notes.md)
-* [Section 4.3: Planar Graphs](sect4.3Notes.md)
+* [Section 4.3: Planar Graphs (presentation)](sect4.3Notes.md)
 
 ## Exercises
 
